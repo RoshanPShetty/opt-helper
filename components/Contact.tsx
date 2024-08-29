@@ -5,7 +5,7 @@ import ArrowUpRight from "../public/arrow-up-right.svg";
 const Contact = () => {
 	return (
 		<div
-			className="py-16 lg:pb-24 relative inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_3px),linear-gradient(to_bottom,#80808012_1px,transparent_3px)] bg-[size:24px_24px]"
+			className="py-16 relative inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_3px),linear-gradient(to_bottom,#80808012_1px,transparent_3px)] bg-[size:24px_24px]"
 			id="contact"
 		>
 			<div className="container rounded-2xl row-span-3 n-gradient text-black overflow-hidden">
@@ -15,7 +15,7 @@ const Contact = () => {
 							Have a feature request?
 						</p>
 						<p className="pt-4 mb-4 font-medium text-sm lg:text-lg">
-							Help us enhance Spotify Shuffler — Your feedback is valuable!
+							Help us enhance OPT Helper — Your feedback is valuable!
 						</p>
 					</div>
 					<div className="lg:col-span-1 lg:items-end lg:justify-end sm:pb-4">
