@@ -83,7 +83,7 @@ const optCards = [
 	{
 		id: 16,
 		src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-		alt: "Global connections",
+		alt: "Career fair",
 	},
 ];
 
@@ -95,7 +95,7 @@ const Hero = () => {
 		>
 			<section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
 				<div>
-					<span className="uppercase mb-4 text-base md:text-sm bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-semibold flex gap-2 items-end">
+					<span className="uppercase mb-4 text-xs md:text-base bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-semibold flex gap-2 items-end">
 						OPT Helper{" "}
 						<Image
 							src="/logo.png"
@@ -121,7 +121,7 @@ const Hero = () => {
 							href="#"
 							className="px-10 h-12 n-gradient text-white font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
 						>
-							Install Extension
+							Install <span className="hidden md:block">Extension</span>
 							<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
 						</motion.a>
 						<motion.a
