@@ -118,8 +118,8 @@ const Hero = () => {
 							animate={{ scale: 1 }}
 							whileHover={{ scale: 1.05 }}
 							transition={{ duration: 0.3 }}
-							href="https://chrome.google.com/webstore/category/extensions"
-							className="px-10 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
+							href="#"
+							className="px-10 h-12 n-gradient text-white font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
 						>
 							Install Extension
 							<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
