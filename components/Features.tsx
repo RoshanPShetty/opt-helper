@@ -170,7 +170,10 @@ const Features = () => {
 					</BounceCard>
 
 					<BounceCard className="col-span-12 md:col-span-4 n-gradient text-white">
-						<a href="#" target="_blank">
+						<a
+							href="https://chromewebstore.google.com/detail/opt-helper-for-internatio/eknpifepgohfcnmbgfalpcalkleohgcm?authuser=0&hl=en"
+							target="_blank"
+						>
 							<CardTitle>One-Click Installation</CardTitle>
 							<div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-black/80 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
 								<span className="block text-center font-semibold text-red-50 uppercase">

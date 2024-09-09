@@ -113,17 +113,19 @@ const Hero = () => {
 						comprehensive guide and tools.
 					</p>
 					<div className="flex items-center gap-4">
-						<motion.a
-							initial={{ scale: 0.9 }}
-							animate={{ scale: 1 }}
-							whileHover={{ scale: 1.05 }}
-							transition={{ duration: 0.3 }}
-							href="#"
-							className="px-10 h-12 n-gradient text-white font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
-						>
-							Install <span className="hidden md:block">Extension</span>
-							<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
-						</motion.a>
+						<a href="https://chromewebstore.google.com/detail/opt-helper-for-internatio/eknpifepgohfcnmbgfalpcalkleohgcm?authuser=0&hl=en" target="_blank">
+							<motion.a
+								initial={{ scale: 0.9 }}
+								animate={{ scale: 1 }}
+								whileHover={{ scale: 1.05 }}
+								transition={{ duration: 0.3 }}
+								href="#"
+								className="px-10 h-12 n-gradient text-white font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
+							>
+								Install <span className="hidden md:block">Extension</span>
+								<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
+							</motion.a>
+						</a>
 						<motion.a
 							initial={{ scale: 0.9 }}
 							animate={{ scale: 1 }}
