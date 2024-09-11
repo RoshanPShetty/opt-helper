@@ -118,16 +118,12 @@ const Hero = () => {
 							animate={{ scale: 1 }}
 							whileHover={{ scale: 1.05 }}
 							transition={{ duration: 0.3 }}
-							href="#"
+							href="https://chromewebstore.google.com/detail/opt-helper-for-internatio/eknpifepgohfcnmbgfalpcalkleohgcm?authuser=0&hl=en"
 							className="px-10 h-12 n-gradient text-white font-semibold rounded-xl shadow-lg flex gap-2 items-center justify-center"
+							target="_blank"
 						>
-							<a
-								href="https://chromewebstore.google.com/detail/opt-helper-for-internatio/eknpifepgohfcnmbgfalpcalkleohgcm?authuser=0&hl=en"
-								target="_blank"
-							>
-								Install <span className="hidden md:block">Extension</span>
-								<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
-							</a>
+							Install <span className="hidden md:block">Extension</span>
+							<Image src="/chrome.svg" alt="chrome" width={20} height={20} />
 						</motion.a>
 						<motion.a
 							initial={{ scale: 0.9 }}
